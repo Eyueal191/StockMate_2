@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const Axios = axios.create({
-  baseURL: "https://stockmate-inventory-system-service.onrender.com",
+  baseURL: "https://stockmate-2-inventory-service.onrender.com",
   timeout: 60000,
   withCredentials: true, // Send cookies automatically
 });
